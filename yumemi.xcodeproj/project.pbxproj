@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24663DF8268852BD006BC608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24663DF7268852BD006BC608 /* AppDelegate.swift */; };
+		24663DFA268852BD006BC608 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24663DF9268852BD006BC608 /* SceneDelegate.swift */; };
+		24663DFC268852BD006BC608 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24663DFB268852BD006BC608 /* ViewController.swift */; };
+		24663DFF268852BD006BC608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24663DFD268852BD006BC608 /* Main.storyboard */; };
+		24663E01268852BF006BC608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24663E00268852BF006BC608 /* Assets.xcassets */; };
+		24663E04268852BF006BC608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24663E02268852BF006BC608 /* LaunchScreen.storyboard */; };
+		24663E0F268852BF006BC608 /* yumemiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24663E0E268852BF006BC608 /* yumemiTests.swift */; };
+		24663E1A268852BF006BC608 /* yumemiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24663E19268852BF006BC608 /* yumemiUITests.swift */; };
+		24663E2926885352006BC608 /* YumemiWeather in Frameworks */ = {isa = PBXBuildFile; productRef = 24663E2826885352006BC608 /* YumemiWeather */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24663E0B268852BF006BC608 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24663DEC268852BD006BC608 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24663DF3268852BD006BC608;
+			remoteInfo = yumemi;
+		};
+		24663E16268852BF006BC608 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24663DEC268852BD006BC608 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24663DF3268852BD006BC608;
+			remoteInfo = yumemi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24663DF4268852BD006BC608 /* yumemi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yumemi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24663DF7268852BD006BC608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24663DF9268852BD006BC608 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		24663DFB268852BD006BC608 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24663DFE268852BD006BC608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24663E00268852BF006BC608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24663E03268852BF006BC608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24663E05268852BF006BC608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24663E0A268852BF006BC608 /* yumemiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yumemiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24663E0E268852BF006BC608 /* yumemiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yumemiTests.swift; sourceTree = "<group>"; };
+		24663E10268852BF006BC608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24663E15268852BF006BC608 /* yumemiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yumemiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24663E19268852BF006BC608 /* yumemiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yumemiUITests.swift; sourceTree = "<group>"; };
+		24663E1B268852BF006BC608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24663DF1268852BD006BC608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24663E2926885352006BC608 /* YumemiWeather in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24663E07268852BF006BC608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24663E12268852BF006BC608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24663DEB268852BD006BC608 = {
+			isa = PBXGroup;
+			children = (
+				24663DF6268852BD006BC608 /* yumemi */,
+				24663E0D268852BF006BC608 /* yumemiTests */,
+				24663E18268852BF006BC608 /* yumemiUITests */,
+				24663DF5268852BD006BC608 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24663DF5268852BD006BC608 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24663DF4268852BD006BC608 /* yumemi.app */,
+				24663E0A268852BF006BC608 /* yumemiTests.xctest */,
+				24663E15268852BF006BC608 /* yumemiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24663DF6268852BD006BC608 /* yumemi */ = {
+			isa = PBXGroup;
+			children = (
+				24663DF7268852BD006BC608 /* AppDelegate.swift */,
+				24663DF9268852BD006BC608 /* SceneDelegate.swift */,
+				24663DFB268852BD006BC608 /* ViewController.swift */,
+				24663DFD268852BD006BC608 /* Main.storyboard */,
+				24663E00268852BF006BC608 /* Assets.xcassets */,
+				24663E02268852BF006BC608 /* LaunchScreen.storyboard */,
+				24663E05268852BF006BC608 /* Info.plist */,
+			);
+			path = yumemi;
+			sourceTree = "<group>";
+		};
+		24663E0D268852BF006BC608 /* yumemiTests */ = {
+			isa = PBXGroup;
+			children = (
+				24663E0E268852BF006BC608 /* yumemiTests.swift */,
+				24663E10268852BF006BC608 /* Info.plist */,
+			);
+			path = yumemiTests;
+			sourceTree = "<group>";
+		};
+		24663E18268852BF006BC608 /* yumemiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24663E19268852BF006BC608 /* yumemiUITests.swift */,
+				24663E1B268852BF006BC608 /* Info.plist */,
+			);
+			path = yumemiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24663DF3268852BD006BC608 /* yumemi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24663E1E268852BF006BC608 /* Build configuration list for PBXNativeTarget "yumemi" */;
+			buildPhases = (
+				24663DF0268852BD006BC608 /* Sources */,
+				24663DF1268852BD006BC608 /* Frameworks */,
+				24663DF2268852BD006BC608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yumemi;
+			packageProductDependencies = (
+				24663E2826885352006BC608 /* YumemiWeather */,
+			);
+			productName = yumemi;
+			productReference = 24663DF4268852BD006BC608 /* yumemi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24663E09268852BF006BC608 /* yumemiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24663E21268852BF006BC608 /* Build configuration list for PBXNativeTarget "yumemiTests" */;
+			buildPhases = (
+				24663E06268852BF006BC608 /* Sources */,
+				24663E07268852BF006BC608 /* Frameworks */,
+				24663E08268852BF006BC608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24663E0C268852BF006BC608 /* PBXTargetDependency */,
+			);
+			name = yumemiTests;
+			productName = yumemiTests;
+			productReference = 24663E0A268852BF006BC608 /* yumemiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24663E14268852BF006BC608 /* yumemiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24663E24268852BF006BC608 /* Build configuration list for PBXNativeTarget "yumemiUITests" */;
+			buildPhases = (
+				24663E11268852BF006BC608 /* Sources */,
+				24663E12268852BF006BC608 /* Frameworks */,
+				24663E13268852BF006BC608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24663E17268852BF006BC608 /* PBXTargetDependency */,
+			);
+			name = yumemiUITests;
+			productName = yumemiUITests;
+			productReference = 24663E15268852BF006BC608 /* yumemiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24663DEC268852BD006BC608 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					24663DF3268852BD006BC608 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					24663E09268852BF006BC608 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 24663DF3268852BD006BC608;
+					};
+					24663E14268852BF006BC608 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 24663DF3268852BD006BC608;
+					};
+				};
+			};
+			buildConfigurationList = 24663DEF268852BD006BC608 /* Build configuration list for PBXProject "yumemi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24663DEB268852BD006BC608;
+			packageReferences = (
+				24663E2726885352006BC608 /* XCRemoteSwiftPackageReference "ios-training" */,
+			);
+			productRefGroup = 24663DF5268852BD006BC608 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24663DF3268852BD006BC608 /* yumemi */,
+				24663E09268852BF006BC608 /* yumemiTests */,
+				24663E14268852BF006BC608 /* yumemiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24663DF2268852BD006BC608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24663E04268852BF006BC608 /* LaunchScreen.storyboard in Resources */,
+				24663E01268852BF006BC608 /* Assets.xcassets in Resources */,
+				24663DFF268852BD006BC608 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24663E08268852BF006BC608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24663E13268852BF006BC608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24663DF0268852BD006BC608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24663DFC268852BD006BC608 /* ViewController.swift in Sources */,
+				24663DF8268852BD006BC608 /* AppDelegate.swift in Sources */,
+				24663DFA268852BD006BC608 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24663E06268852BF006BC608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24663E0F268852BF006BC608 /* yumemiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24663E11268852BF006BC608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24663E1A268852BF006BC608 /* yumemiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24663E0C268852BF006BC608 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24663DF3268852BD006BC608 /* yumemi */;
+			targetProxy = 24663E0B268852BF006BC608 /* PBXContainerItemProxy */;
+		};
+		24663E17268852BF006BC608 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24663DF3268852BD006BC608 /* yumemi */;
+			targetProxy = 24663E16268852BF006BC608 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24663DFD268852BD006BC608 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24663DFE268852BD006BC608 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24663E02268852BF006BC608 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24663E03268852BF006BC608 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24663E1C268852BF006BC608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24663E1D268852BF006BC608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24663E1F268852BF006BC608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KJNHRJH38;
+				INFOPLIST_FILE = yumemi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.awa.yumemi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24663E20268852BF006BC608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KJNHRJH38;
+				INFOPLIST_FILE = yumemi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.awa.yumemi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24663E22268852BF006BC608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KJNHRJH38;
+				INFOPLIST_FILE = yumemiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.awa.yumemiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yumemi.app/yumemi";
+			};
+			name = Debug;
+		};
+		24663E23268852BF006BC608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KJNHRJH38;
+				INFOPLIST_FILE = yumemiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.awa.yumemiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yumemi.app/yumemi";
+			};
+			name = Release;
+		};
+		24663E25268852BF006BC608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KJNHRJH38;
+				INFOPLIST_FILE = yumemiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.awa.yumemiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yumemi;
+			};
+			name = Debug;
+		};
+		24663E26268852BF006BC608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KJNHRJH38;
+				INFOPLIST_FILE = yumemiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.awa.yumemiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = yumemi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24663DEF268852BD006BC608 /* Build configuration list for PBXProject "yumemi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24663E1C268852BF006BC608 /* Debug */,
+				24663E1D268852BF006BC608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24663E1E268852BF006BC608 /* Build configuration list for PBXNativeTarget "yumemi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24663E1F268852BF006BC608 /* Debug */,
+				24663E20268852BF006BC608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24663E21268852BF006BC608 /* Build configuration list for PBXNativeTarget "yumemiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24663E22268852BF006BC608 /* Debug */,
+				24663E23268852BF006BC608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24663E24268852BF006BC608 /* Build configuration list for PBXNativeTarget "yumemiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24663E25268852BF006BC608 /* Debug */,
+				24663E26268852BF006BC608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		24663E2726885352006BC608 /* XCRemoteSwiftPackageReference "ios-training" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yumemi-inc/ios-training.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		24663E2826885352006BC608 /* YumemiWeather */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 24663E2726885352006BC608 /* XCRemoteSwiftPackageReference "ios-training" */;
+			productName = YumemiWeather;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 24663DEC268852BD006BC608 /* Project object */;
+}
